@@ -1,0 +1,39 @@
+{
+  "name": "commuter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "ts-node src/import/download",
+    "extract": "ts-node src/import/extract"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^1.0.3",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.1",
+    "momentjs": "^2.0.0",
+    "mongoose": "^5.1.0",
+    "request": "^2.87.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/node": "^10.1.2",
+    "@types/progress": "^2.0.1",
+    "@types/request": "^2.47.0",
+    "chalk": "^2.4.1",
+    "concurrently": "^3.5.1",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.4",
+    "progress": "^2.0.0",
+    "supertest": "^3.0.0",
+    "ts-node": "^6.0.5",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^2.8.3"
+  }
+}
